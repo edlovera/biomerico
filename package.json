@@ -1,0 +1,21 @@
+{
+  "name": "biometrico",
+  "version": "1.0.0",
+  "description": "Sistema para lectura de equipos biometricos",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eli David Lovera - Genera",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^9.0.0",
+    "http": "0.0.1-security",
+    "httpdispatcher": "^2.1.2",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.33",
+    "mssql": "^6.3.1",
+    "winston": "^3.3.3"
+  }
+}
